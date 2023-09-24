@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PostTitle": {
+      "type": "string",
+      "required": true
+    },
+    "PostText": {
+      "type": "richtext",
+      "required": true
+    },
+    "PostCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "Slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

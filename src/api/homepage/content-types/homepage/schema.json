@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "MetaDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "HeroMain": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "CardsMain": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.cards"
+    }
+  }
+}

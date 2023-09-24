@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cards_cards",
+  "info": {
+    "displayName": "Cards",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    }
+  }
+}

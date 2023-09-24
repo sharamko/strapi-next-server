@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "HeroTitile": {
+      "type": "string",
+      "required": true
+    },
+    "HeroText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

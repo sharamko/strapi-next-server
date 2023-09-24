@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "CardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "CardImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "CardText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
